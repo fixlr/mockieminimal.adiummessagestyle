@@ -1,0 +1,21 @@
+== MockieMinimal.AdiumMessageStyle
+I like Adium's Mockie message style, but I like it more with a few things hidden.  Just tossing this up here so  I don't have to keep copying my changes around.  See sample.png
+
+== Diff with original Mockie
+diff MockieMinimal.AdiumMessageStyle/Contents/Info.plist /Applications/Adium.app/Contents/Resources/Message Styles/Mockie.AdiumMessageStyle/Contents/Info.plist
+8c8
+<       <string>MockieMinimal Adium Message Style</string>
+---
+>       <string>Mockie Adium Message Style</string>
+10c10
+<       <string>com.adiumx.mockieminimal.style</string>
+---
+>       <string>com.adiumx.mockie.style</string>
+14c14
+<       <string>MockieMinimal</string>
+---
+>       <string>Mockie</string>
+diff MockieMinimal.AdiumMessageStyle/Contents/Resources/styles/basestyle.css /Applications/Adium.app/Contents/Resources/Message Styles/Mockie.AdiumMessageStyle/Contents/Resources/styles/basestyle.css
+81,82d80
+< 
+< .topleft, .protocol, .sender { display: none; }
