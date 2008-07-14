@@ -1,6 +1,12 @@
 == MockieMinimal.AdiumMessageStyle
 I like Adium's Mockie message style, but I like it more with a few things hidden.  Just tossing this up here so  I don't have to keep copying my changes around.  See sample.png
 
+
+== Install
+cd ~/Library/Application\ Support/Message\ Styles/
+git clone git@github.com:fixlr/mockieminimal.adiummessagestyle.git
+
+
 == Diff with original Mockie
 diff MockieMinimal.AdiumMessageStyle/Contents/Info.plist /Applications/Adium.app/Contents/Resources/Message Styles/Mockie.AdiumMessageStyle/Contents/Info.plist
 8c8
