@@ -1,0 +1,13 @@
+body{background-color:#fff;}
+#curtain{background-color:transparent;}
+.incoming .time_consecutive,.incoming .time_initial{color:#fff;}
+.incoming .message{background:rgba(0,0,0,0.6); color:#fff;}
+.incoming .time_consecutive + div{border-top:1px solid rgba(255,255,255,.5);}
+.incoming a {color:#00CCFF;}
+.incoming a:hover{background:#000; color:white;}
+.outgoing .time_consecutive,.outgoing .time_initial{color:#888;}
+.outgoing .message{background:transparent; color:#888;}
+.outgoing .time_consecutive + div{border-top:1px solid rgba(0,0,0,.1);}
+.outgoing a {color:#0097BD;}
+.outgoing a:hover{background:#666;color:white;}
+.status_container{background:rgba(255,255,255,0.8);}
